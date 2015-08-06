@@ -1,0 +1,51 @@
+﻿      <div class="container">    
+          <div id="loginbox" class="mainbox col-md-6 col-lg-4 col-lg-offset-4 col-md-offset-3 col-sm-12 col-xm-12">                    
+              <h1 class="sc-login-logo"></h1>
+              <span class="sc-login-logo-sub"><p> Get your things done </p></span>
+              <div class="panel panel-info" >
+                      <div class="panel-heading">
+                          <div class="panel-title">Sign Up</div>
+                      </div>     
+                      <div class="panel-body" ng-controller="SignUpCtrl">
+                           <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12 controls"></div>
+                           <form id="loginform" class="form-horizontal" name="signUpForm" ng-submit="signUp(user)" autoComplete:on>
+                               <toaster-container toaster-options="{'position-class': 'alert'}" ></toaster-container>
+                               <div  class="alert alert-invalidInput" ng-show="signUpForm.password.$error.minlength" >  
+                                      <a class="close" data-dismiss="alert">×</a>  
+                                      <strong>Warning! </strong> Password field must contain at least 6 characters
+                                </div>
+                                <div  class="alert alert-invalidInput" ng-show="signUpForm.username.$error.username" >  
+                                      <a class="close" data-dismiss="alert">×</a>  
+                                      <strong>Warning! </strong> This username is already exists
+                                </div>
+
+                                <div  class="alert alert-invalidInput" ng-show="signUpForm.email.$error.email" >  
+                                      <a class="close" data-dismiss="alert">×</a>  
+                                      <strong>Warning! </strong> This email already exists
+                                </div>
+                
+                                <div id="sc-userName" class="input-group " ng-class="{'has-error':signUpForm.username.$invalid && signUpForm.username.$dirty || signUpForm.$error.username , 'has-success':signUpForm.username.$valid }">
+                                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                      <input id="login-username" type="text" class="form-control input-height" name="username" value="" placeholder="user name" ng-model="user.username"  required username >                                        
+                                </div> 
+                                <div id="sc-userName" class="input-group " ng-class="{'has-error':signUpForm.email.$invalid && signUpForm.email.$dirty  , 'has-success':signUpForm.email.$valid}">
+                                      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                      <input id="login-mail" type="email" class="form-control input-height" name="email" value="" placeholder="email adress" ng-model="user.email"  required  email >                                        
+                                </div>
+                                <div id="sc-pwd" class="input-group" ng-class="{'has-error':( signUpForm.password.$invalid && signUpForm.password.$dirty ) ||  signUpForm.password.$error.minlength, 'has-success':signUpForm.password.$valid}">
+                                      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                      <input id="login-password" type="password" class="form-control input-height" name="password" placeholder="password" ng-model="user.password" ng-minlength="6" required>
+                                </div>
+                                <div class="form-group">
+                                      <!-- Button -->
+                                      <div class="col-sm-12 controls">
+                                          <input id="btn-login" type="submit"  ng-disabled="signUpForm.$invalid" class="btn btn-custom btn-lg btn-block btn-success" value="Sign Up"/>
+        
+                                      </div>
+                                 </div>
+                          </form>     
+                      </div>
+                </div>                     
+          </div>  
+     </div>
+           

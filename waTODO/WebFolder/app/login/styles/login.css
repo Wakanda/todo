@@ -1,0 +1,100 @@
+﻿
+
+.sc-login-page{
+  background: #222222;
+  
+}
+#loginbox{
+margin-top:50px;
+}
+
+.sc-login-logo{
+  background: url('../../images/logo.png') no-repeat;
+  display: block;
+  width: 320px;
+  height: 238px;
+  text-indent: -9999em;
+  margin: 0 auto 10px;
+}
+.sc-login-logo-sub{
+  font: 15px 'arial';
+  color: #888888;
+  text-align: center;
+ 
+}
+
+.panel-title{
+  text-align: center;
+}
+
+.panel-body{
+  padding-top:30px
+}
+
+#sc-userName{
+  margin-bottom: 25px
+}
+
+.input-height{
+  height: 40px !important;
+}
+
+#sc-pwd{
+  margin-bottom: 25px
+}
+
+.form-group{
+  margin-top:10px
+}
+
+#sc-forgetPwd{
+  text-align: center; 
+  font-size: 80%; 
+  position: relative; 
+  top:10px
+}
+
+.alert-invalidLogin{
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  
+  display: none;
+}
+
+.alert-invalidInput{
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+@media (max-width: 768px){
+
+    #loginbox {
+    margin-top: 0px;
+    }
+    .sc-login-logo{
+      background: url('../../images/logo-phone.png') no-repeat;
+      width: 160px;
+      height: 173px;
+    }
+
+    .panel-title {
+    font-size: 14px;
+    }
+
+    .sc-login-logo-sub{
+      font-size: 12px;
+    }
+}
+
+#footer {
+    color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+}
+#footer p {
+    margin-bottom: 0;
+}
+#footer a {
+    color: inherit;
+}

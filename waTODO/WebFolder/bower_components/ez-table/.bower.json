@@ -1,0 +1,32 @@
+{
+  "name": "ez-table",
+  "version": "0.1.5",
+  "main": [
+    "dist/ez-table.min.js",
+    "dist/ez-table.min.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.0.3",
+    "angular": "~1.2.0-rc.2",
+    "autotype": "https://raw.github.com/mmonteleone/jquery.autotype/master/jquery.autotype.js",
+    "angular-mocks": "~1.2.0-rc.2"
+  },
+  "homepage": "https://github.com/jdewit/ez-table",
+  "_release": "0.1.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.5",
+    "commit": "ddf1a2b50f406712d539867fc184ffe72cfc7b44"
+  },
+  "_source": "git://github.com/jdewit/ez-table.git",
+  "_target": "~0.1.5",
+  "_originalSource": "ez-table",
+  "_direct": true
+}

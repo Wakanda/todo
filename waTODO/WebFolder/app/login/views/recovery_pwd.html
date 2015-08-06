@@ -1,0 +1,33 @@
+      <div class="container">    
+          <div id="loginbox" class="mainbox col-md-6 col-lg-4 col-lg-offset-4 col-md-offset-3 col-sm-12 col-xm-12">                    
+              <h1 class="sc-login-logo">WaScrum</h1>
+              <span class="sc-login-logo-sub"><p><strong>Scrum</strong> software developement process</p></span>
+              <div class="panel panel-info" >
+                      <div class="panel-heading">
+                          <div class="panel-title">Forgot your Password?</div>
+                      </div>     
+                      <div class="panel-body" >
+                           <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12 controls"></div>
+                           <form id="recoveryform" class="form-horizontal" name="recoveryform" ng-submit="sendMail(emailAdress)" ng-controller="RecoveryPwdCtrl" autoComplete:on>
+                                <div id="messageError" class="alert alert-invalidLogin" >  
+                                      <a class="close" data-dismiss="alert">×</a>  
+                                      <strong>Warning! </strong>invalid email adress. Please try again. 
+                                </div> 
+                                <p>Not to worry. Just enter your email address below and we'll send you an instruction email for recovery.</p>
+                                <div id="sc-userName" class="input-group " ng-class="{'has-error':recoveryform.username.$invalid && recoveryform.username.$dirty, 'has-success':recoveryform.username.$valid}">
+                                      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                      <input id="login-username" type="email" class="form-control input-height" name="username" value="" placeholder="email adress" ng-model="emailAdress" required  >                                        
+                                </div>
+                                <div class="form-group">
+                                      <!-- Button -->
+                                      <div class="col-sm-12 controls">
+                                          <input id="btn-login" type="submit"  ng-disabled="recoveryform.$invalid" class="btn btn-custom btn-lg btn-block btn-success" value="Send"/>
+                                          <div id="sc-forgetPwd">Remember your password? <a ng-href="#/login">Login</a></div>
+                                      </div>
+                                 </div>
+                          </form>    
+                      </div>
+                </div>                     
+          </div>  
+     </div>
+           

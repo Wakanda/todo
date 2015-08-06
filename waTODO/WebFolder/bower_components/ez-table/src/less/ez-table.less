@@ -1,0 +1,95 @@
+table.ez-table {
+
+  th:first-child {
+    width: 50px;
+  }
+
+  th:last-child {
+    width: 125px;
+  }
+
+  th {
+    text-align: center;
+
+    a {
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .caret.caret-up {
+      border-top: 0 dotted;
+      border-bottom: 4px solid #000;
+      content: "";
+    }
+  }
+
+  tbody td:first-child, tfoot td:first-child {
+    text-align: center;
+  }
+
+  tfoot td {
+    padding: 2.5px 8px;
+    height: 35px;
+    text-align: left;
+    position: relative;
+
+    .batch-actions a {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .pagination-container {
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      width: 400px;
+      margin-left: -237.5px;
+      top: 2.5px;
+    }
+
+    .pagination {
+      margin: 0;
+    }
+
+    .sort-container {
+      a, select {
+        float: right;
+      }
+    }
+  }
+
+  .table-limit-select {
+    width: 60px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  table.ez-table {
+    tfoot td {
+      .pagination-container {
+        display: block;
+        position: relative;
+        width: auto;
+        margin: 0 0 5px;
+        left: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  table.ez-table {
+    tfoot td {
+      a {
+        i {
+          padding: 0;
+        }
+        span {
+          display: none;  
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ez-table",
+  "version": "0.1.5",
+  "main": [
+    "dist/ez-table.min.js",
+    "dist/ez-table.min.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.0.3",
+    "angular": "~1.2.0-rc.2",
+    "autotype": "https://raw.github.com/mmonteleone/jquery.autotype/master/jquery.autotype.js",
+    "angular-mocks": "~1.2.0-rc.2"
+  }
+}
