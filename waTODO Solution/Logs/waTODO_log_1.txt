@@ -346,3 +346,38 @@
 2015-08-06 14:42:35 [com.wakanda-software.waTODO.waTODO] INFO - >>> >packageListHelper.diffPackageListStorageVsWpm() > file application.css no change on TS : 2015-08-06T10:25:19.000Z
 2015-08-06 14:42:35 [com.wakanda-software.waTODO.waTODO.console] INFO - {"data":[">>> >packageListHelper.diffPackageListStorageVsWpm() > file application.css no change on TS : 2015-08-06T10:25:19.000Z"]}
 2015-08-06 14:43:07 [com.wakanda-software.waTODO.waTODO] INFO - Datastore model reloaded
+2015-08-06 18:00:36 [com.wakanda-software.waTODO] INFO - Users and groups directory opened
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - Datastore opened
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - "waTODO" project opened
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - "ServerAdmin" project opened
+2015-08-06 18:00:36 [com.wakanda-software.waTODO] INFO - "waTODO" solution opened
+2015-08-06 18:00:36 [com.wakanda-software] INFO - Starts "waTODO" solution
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - >buildInit() - mode :  release
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","""]}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - <buildInit()
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - HTTP Server started
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - "ServerAdmin" project started
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - >buildInit() - mode :  release
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO.console] INFO - {"data":[">buildInit() - mode : ","""]}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - >buildInit() - added package definition to storage
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - <buildInit()
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO.console] INFO - {"data":["<buildInit()"]}
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - HTTP Server started
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - "waTODO" project started
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - Executes the bootstrap file(s)
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.ServerAdmin] INFO - Bootstrap file(s) executed
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - Executes the bootstrap file(s)
+2015-08-06 18:00:36 [com.wakanda-software.waTODO.waTODO] INFO - Bootstrap file(s) executed
+2015-08-06 18:00:36 [com.wakanda-software.waTODO] INFO - "waTODO" solution started
+2015-08-06 18:00:36 [com.wakanda-software] INFO - "waTODO" solution has been successfully opened for running (duration: 424 ms)
+2015-08-06 18:00:36 [com.wakanda-software.supervisor] INFO - solution opened
